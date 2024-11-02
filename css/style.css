@@ -51,6 +51,7 @@
 .bgCard:hover{
     transform: scale(1.05);
 	z-index: 10;
+    transition: 0.5s;
 }
 .linkA{
     text-decoration:none;
@@ -107,6 +108,15 @@
 .containerBack{
     width: 65%;
 }
+
+.flipped .card {
+    transform: rotateY(180deg);
+}
+
+.divAtriz{
+    padding: 0 5%;
+    box-sizing: border-box;
+}
 @media(max-width: 320px){
     .containerBack{
         width: 100%;
@@ -114,7 +124,25 @@
     .carousel{
         height: 900px;
     }
+   
 }
-.flipped .card {
-    transform: rotateY(180deg);
+@media(max-width:780px){
+    .imagemC{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+@media(max-width: 1000px){
+    .imagemA{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    .divAtriz{
+        padding: 0;
+        margin: 0;
+    }
 }
