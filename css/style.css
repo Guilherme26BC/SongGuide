@@ -32,10 +32,7 @@
 .bg-card-DG{
     background-color:var(--color-darkGray);
 }
-nav{
-    background: linear-gradient( #10B149,#2C2C2C) ;
-    height: 70px;
-}
+
 footer{
    background: linear-gradient(#2C2C2C, #10B149) ;
 }
